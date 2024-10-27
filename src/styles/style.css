@@ -1,0 +1,40 @@
+/* Import do reset css e dá fonte */
+@import url(reset.css);
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+main .menu .status{
+    color: red;
+}
+
+main .panel{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #7fffd4;
+}
+
+.enemy{
+    background-color: #ff0000;
+}
