@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap" rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="src/images/favicon.jpg" type="image/x-icon">
     <title>Detona Ralph Game</title>
 </head>
 <body>
@@ -19,14 +21,14 @@
         <div class="menu">
             <div class="menu-time">
                 <h2 class="status">Time Left</h2>
-                <h2>0</h2>
+                <h2 id="time-left">0</h2>
             </div>
             <div class="menu-score">
                 <h2 class="status">Your Score</h2>
-                <h2>0</h2>
+                <h2 id="score">0</h2>
             </div>
-            <div class="menu-live">
-                <img src="" alt="">
+            <div class="menu-lives">
+                <img src="src/images/player.png" alt="foto do jogador">
                 <h2>x3</h2>
             </div>
         </div>
@@ -44,7 +46,7 @@
             <div class="panel-row">
                 <div class="square" id="7"></div>
                 <div class="square" id="8"></div>
-                <div class="square" id="9"></div>
+                <div class="square enemy" id="9"></div>
             </div>
         </div>
     </main>
